@@ -15,21 +15,27 @@ A practical learning repo to master Angular testing from zero to confident. Each
 - Test quality: avoiding flaky tests, good naming, test boundaries
 - CI-ready setup: coverage, thresholds, fast runs
 
-## Repo structure (suggested)
+## Repo structure
 
-- `01-basics/` — testing fundamentals (no Angular yet)
-- `02-testbed/` — TestBed + DI patterns
-- `03-components/` — component tests (simple → complex)
-- `04-services-http/` — HttpClient + HttpTestingController
-- `05-forms/` — reactive forms + validators
-- `06-router/` — routing + guards
-- `07-state/` — NgRx or Signals track
-- `08-e2e-or-integration/` — optional broader flows
+- `01-fundamentals/` — testing fundamentals (no Angular yet)
+- `02-arrays-and-strings/` — TestBed + DI patterns
+- `03-setup-and-teardown/` — component tests (simple → complex)
+- `04-forms/` — HttpClient + HttpTestingController
+- `05-event-emitters/` — reactive forms + validators
+- `06-services/` — routing + guards
+- `07-spyOn/` — NgRx or Signals track-
+- `08-testbed/` — TestBed + DI patterns
+- `09-components/` — component tests (simple → complex)
+- `09-services-http/` — HttpClient + HttpTestingController
+- `10-forms/` — reactive forms + validators
+- `11-router/` — routing + guards
+- `12-state/` — NgRx or Signals track
+- `13-e2e-or-integration/` — optional broader flows
 - `shared/` — utilities, test helpers, factories
 
 ## How to use
 
-1. Start at `01-basics`
+1. Start at `01-fundamentals`
 2. Run tests after every step
 3. Compare your solution with the provided one (if you include it)
 4. Move forward only when you understand _why_ a test is written that way
